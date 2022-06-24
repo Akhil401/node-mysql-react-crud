@@ -1,0 +1,50 @@
+.home > header {
+  display: flex;
+  width: 80%;
+  justify-content: space-around;
+  align-items: center;
+}
+.add__button {
+  padding: 0;
+  width: 50px;
+  height: 30px;
+  transition: 0.5s ease-in-out;
+  color: black;
+}
+
+.add__button:hover {
+  background-color: rgb(20, 129, 20);
+  color: white;
+}
+
+table {
+  margin-top: 5em;
+  margin-left: 15em;
+  border: 1px solid gray;
+  border-collapse: collapse;
+  width: 52%;
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 15px;
+}
+.action {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+}
+
+.action__button {
+  font-size: 1.7em;
+  color: black;
+  transition: 0.5s ease-in-out;
+}
+.edit:hover {
+  color: green;
+}
+.delete:hover {
+  color: red;
+}

@@ -1,0 +1,26 @@
+.add {
+  margin-top: 5em;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+form > input {
+  width: 15em;
+  padding: 5px;
+  margin-bottom: 15px;
+}
+
+form > span {
+  font-weight: bold;
+  margin: 2px;
+}
+form > button {
+  padding: 3px 8px;
+  transition: 0.5s ease-in-out;
+}
+form > button:hover {
+  color: white;
+  background-color: rgb(67, 126, 67);
+}
